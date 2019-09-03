@@ -1,0 +1,10 @@
+openshift_cluster_content:
+- object: Htpasswd
+  content:
+    - name: Oauth
+      template: "{{ inventory_dir }}/../templates/htprovider.yaml"
+      params_from_vars:
+        HTPASSWD_PROVIDER: my_htpasswd_provider
+        HTPASSWD_SECRET: htpass-secret
+
+
