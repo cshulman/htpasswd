@@ -5,7 +5,7 @@
 
 This will set up htpasswd:
 
-1) clone https://github.com/huddlesj/openshift4-infra.git
+1) clone https://github.com/cshulman/htpasswd.git
 2) cd openshift4-infra/clusters/on-prem
 
 Make sure you're logged into your cluster for these steps:
