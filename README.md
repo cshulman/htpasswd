@@ -17,3 +17,5 @@ Make sure you're logged into your cluster for these steps:
 Lastly run this script which will: install galaxy and create basic htpasswd auth:
 
 ./bin/applier.sh
+
+It can take a minute or two for the changes to apply but once it does your users can log in
