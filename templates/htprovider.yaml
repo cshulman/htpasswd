@@ -6,6 +6,7 @@ objects:
     kind: OAuth
     metadata:
       name: cluster
+      namespace: openshift-config
     spec:
       identityProviders:
       - name: ${HTPASSWD_PROVIDER}
